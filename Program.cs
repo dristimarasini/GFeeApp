@@ -38,6 +38,37 @@ namespace GFeeApp
             {
                 dis = 3000;
             }
+            
+            do
+            {
+                Console.WriteLine("Enter the semester(First,Second,Third,fourth) for which you want to calculate the fee.");
+sem = Console.ReadLine();
+                switch (sem.ToLower())
+                {
+                    case "first":
+                       
+                        Console.WriteLine($"Your {sem} semester fee is {fee-dis}");
+                        break;
+                    case "second":
+                        myDec = 200;
+                       
+                        Console.WriteLine($"Your {sem} semester fee is {fee - dis - 1000 - (int)myDec}");
+                        break;
+                    case "third":
+        
+                        Console.WriteLine($"Your {sem} semester fee is {fee - dis - 2000}");
+                        break;
+                    case "fourth":
+                        fee = fee - dis - 3000;
+                        Console.WriteLine($"Your {sem} semester fee is {fee}");
+                        break;
+                    default:
+                        Console.WriteLine("Please enter the valid semester!");
+                        break;
+                }
+                Console.WriteLine("Do you want to continue?(y/n)");
+                ch = Convert.ToChar(Console.ReadLine());
+            } while (ch == 'y');
         }
     }
 }
