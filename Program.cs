@@ -16,6 +16,28 @@ namespace GFeeApp
             var GPA = "";
             var sem="";
             var dis = 0;
+            
+            do
+            {
+                Console.WriteLine("Enter your Name");
+                name = Console.ReadLine();
+                decision = (name == String.Empty);
+            }
+           while (decision);
+            Console.WriteLine($"********Welcome {name}*************");
+            do
+            {
+                Console.WriteLine("Enter your GPA");
+                GPA = Console.ReadLine();
+            }
+            while (GPA == String.Empty);
+            myGPA = Convert.ToDouble(GPA);
+
+          
+            if (myGPA > 3.3)
+            {
+                dis = 3000;
+            }
         }
     }
 }
