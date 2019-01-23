@@ -66,8 +66,10 @@ sem = Console.ReadLine();
                         Console.WriteLine("Please enter the valid semester!");
                         break;
                 }
+                do{
                 Console.WriteLine("Do you want to continue?(y/n)");
                 ch = Convert.ToChar(Console.ReadLine());
+                }while(ch!='y'&& ch!='n');
             } while (ch == 'y');
             Console.WriteLine($"Thank you {name}!!");
         }
