@@ -6,7 +6,7 @@ namespace GFeeApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("****************Graduate Semester Fee Calculator App******************");
+            Console.WriteLine("\n ****************Graduate Semester Fee Calculator App******************");
             var fee = 7000;
             var myGPA = 0.00;
             var ch = 'n';
@@ -19,15 +19,15 @@ namespace GFeeApp
             
             do
             {
-                Console.WriteLine("Enter your Name");
+                Console.WriteLine("\n Enter your Name");
                 name = Console.ReadLine();
                 decision = (name == String.Empty);
             }
            while (decision);
-            Console.WriteLine($"********Welcome {name}*************");
+            Console.WriteLine($"\n ********Welcome {name}*************");
             do
             {
-                Console.WriteLine("Enter your GPA");
+                Console.WriteLine("\n Enter your GPA");
                 GPA = Console.ReadLine();
             }
             while (GPA == String.Empty);
