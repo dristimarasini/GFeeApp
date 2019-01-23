@@ -69,6 +69,7 @@ sem = Console.ReadLine();
                 Console.WriteLine("Do you want to continue?(y/n)");
                 ch = Convert.ToChar(Console.ReadLine());
             } while (ch == 'y');
+            Console.WriteLine($"Thank you {name}!!");
         }
     }
 }

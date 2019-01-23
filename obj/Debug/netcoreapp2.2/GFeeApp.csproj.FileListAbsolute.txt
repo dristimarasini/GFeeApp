@@ -1,0 +1,11 @@
+C:\Users\S533985\Documents\44663\GFeeApp\bin\Debug\netcoreapp2.2\GFeeApp.deps.json
+C:\Users\S533985\Documents\44663\GFeeApp\bin\Debug\netcoreapp2.2\GFeeApp.runtimeconfig.json
+C:\Users\S533985\Documents\44663\GFeeApp\bin\Debug\netcoreapp2.2\GFeeApp.runtimeconfig.dev.json
+C:\Users\S533985\Documents\44663\GFeeApp\bin\Debug\netcoreapp2.2\GFeeApp.dll
+C:\Users\S533985\Documents\44663\GFeeApp\bin\Debug\netcoreapp2.2\GFeeApp.pdb
+C:\Users\S533985\Documents\44663\GFeeApp\obj\Debug\netcoreapp2.2\GFeeApp.csprojAssemblyReference.cache
+C:\Users\S533985\Documents\44663\GFeeApp\obj\Debug\netcoreapp2.2\GFeeApp.csproj.CoreCompileInputs.cache
+C:\Users\S533985\Documents\44663\GFeeApp\obj\Debug\netcoreapp2.2\GFeeApp.AssemblyInfoInputs.cache
+C:\Users\S533985\Documents\44663\GFeeApp\obj\Debug\netcoreapp2.2\GFeeApp.AssemblyInfo.cs
+C:\Users\S533985\Documents\44663\GFeeApp\obj\Debug\netcoreapp2.2\GFeeApp.dll
+C:\Users\S533985\Documents\44663\GFeeApp\obj\Debug\netcoreapp2.2\GFeeApp.pdb
